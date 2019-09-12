@@ -1,2 +1,0 @@
-# NodeTraining
-TestNode

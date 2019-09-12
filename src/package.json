@@ -2,11 +2,11 @@
   "name": "nemo",
   "version": "1.0.0",
   "description": "test npm",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "npm run",
     "lint": "eslint src"
-    "build":
+  
   },
   "repository": {
     "type": "git",

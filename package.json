@@ -4,8 +4,10 @@
   "description": "test npm",
   "main": "index.js",
   "scripts": {
+    "start": "BABEL_DISABLE_CACHE=1 nodemon ./src/index.js --exec babel-node",
     "test": "npm run",
-    "lint": "eslint src test"
+    "lint": "eslint src test",
+    "build": "babel --presets env -d output src"
   },
   "repository": {
     "type": "git",
@@ -26,7 +28,10 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
-    "eslint": "^6.3.0"
+    "eslint": "^6.3.0",
+    "webpack": "^4.40.0",
+    "webpack-cli": "^3.3.8"
   }
 }
