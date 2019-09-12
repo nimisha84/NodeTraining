@@ -1,0 +1,26 @@
+{
+  "name": "nemo",
+  "version": "1.0.0",
+  "description": "test npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimisha84/NodeTraining.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "nemo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nimisha84/NodeTraining/issues"
+  },
+  "homepage": "https://github.com/nimisha84/NodeTraining#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
+  }
+}
